@@ -1,0 +1,6 @@
+@media only screen,
+print {
+    h1 {
+        color: red;
+    }
+}
