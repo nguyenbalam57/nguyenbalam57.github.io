@@ -21,9 +21,9 @@
 		),
 		'database' => array(
 			'type' => 'mysql',
-			'host' => 'localhost',
-			'username' => 'root', 
-			'password' => '',
+			'host' => '192.168.1.12',
+			'username' => 'admin', 
+			'password' => 'your_password',
 			'dbname'=> 'tourbooking',
 			'port' => 3306,
 			'prefix' => 'table_',
