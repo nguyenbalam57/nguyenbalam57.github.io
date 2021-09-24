@@ -1,0 +1,54 @@
+#why-box {
+    background: #fff;
+    padding: 20px 0;
+}
+#why-box .w-why{
+	width: 100%;
+}
+#why-box .wraptem .img {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#why-box .wraptem .content_right {
+    width: calc(100% - 70px);
+    -moz-width: calc(100% - 70px);
+    -o-width: calc(100% - 70px);
+    -os-width: calc(100% - 70px);
+    display: block;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#why-box .wraptem .content_right p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+}
+#why-box .wraptem .content_right span {
+    font-size: 14px;
+    color: #282828;
+}
+@media screen and (max-width: 767px) {
+    #why-box .w-why .col--4{
+        width: calc(100% / 2);
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width: 575px) {
+    #why-box .w-why .col--4{
+        width: calc(100% / 1);
+    }
+}

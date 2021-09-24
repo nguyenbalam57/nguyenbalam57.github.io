@@ -1,0 +1,20 @@
+{
+	"name": "ckeditor/ckeditor",
+	"description": "JavaScript WYSIWYG web text editor.",
+	"type": "library",
+	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
+	"homepage": "https://ckeditor.com",
+	"license": [ "GPL-2.0+", "LGPL-2.1+", "MPL-1.1+" ],
+	"authors": [
+		{
+			"name":  "CKSource",
+			"homepage": "https://cksource.com"
+		}
+	],
+	"support": {
+		"issues": "https://dev.ckeditor.com",
+		"forum": "https://ckeditor.com/forums",
+		"wiki": "https://docs.ckeditor.com",
+		"source": "https://github.com/ckeditor/ckeditor-dev"
+	}
+}

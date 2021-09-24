@@ -1,0 +1,18 @@
+.partner-one{
+	background: #FFF;
+	padding: 30px 0px;
+}
+.partner-one h4{
+	font-size: 18px;
+	color: #333;
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+}
+.partner-one .partner-box{
+	width: calc(100% - 200px);
+}
+.partner-one .partner-box img{
+	max-width: 100%;
+	display: block;
+}

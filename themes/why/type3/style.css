@@ -1,0 +1,103 @@
+.why-three{
+	background: #ebebeb;
+}
+.why-three .i-why:nth-child(1){
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	min-height: 340px;
+	padding: 20px 0px;
+}
+.why-three .i-why:nth-child(2){
+	border-right: 2px solid #FFF;
+}
+.why-three .li-why{
+	padding: 10px 30px;
+	border-bottom: 2px solid #FFF;
+}
+.why-three .li-why:nth-child(2n + 1){
+	border-right: 2px solid #FFF;
+}
+.why-three .li-why:nth-last-child(2),.why-three .li-why:nth-last-child(1) {
+  	border-bottom: 0px solid #FFF;
+} 
+.why-three .li-why .name{
+	margin-left: 15px;
+	font-size: 20px;
+	color: #333;
+	font-weight: 700;
+}
+.why-three .i-why h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px 20px;
+}
+.why-three .i-why .hotline{
+	margin: 0px 20px;
+	padding: 5px 10px;
+	border: 1px solid #333;
+	color: #333;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.why-three .i-why .time{
+	margin: 5px 0px 20px;
+	font-size: 13px;
+}
+.why-three .i-why .list{
+	text-transform: uppercase;
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 0px 35px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.why-three .i-why .list:before{
+	width: 4px;
+	height: 4px;
+	background: #FFF;
+	border: 4px solid #d90;
+	border-radius: 50%;
+	content: '';
+	position: absolute;
+	left: 15px;
+	top: 3px;
+}
+.why-three .i-why .desc,.why-three .i-why .click-taikhoan{
+	color: #333;
+	font-size: 13px;
+	padding: 0px 50px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+@media screen and (max-width:991px) {
+    .why-three .col-4{
+    	width: 100%;
+    }
+    .why-three .col-8{
+    	width: 100%;
+    }
+    .why-three .i-why:nth-child(1){
+    	border-bottom: 2px solid #FFF;
+    }
+    .why-three .li-why:nth-child(2n + 1){
+    	border-left: 2px solid #FFF;
+    }
+}
+@media screen and (max-width:768px) {
+    .why-three .li-why .img{
+    	width: 100%;
+    	display: block;
+    	text-align: center;
+    }
+    .why-three .li-why .name{
+    	margin-left: 0px;
+    	width: 100%;
+    	text-align: center;
+    }
+    .why-three .li-why{
+    	padding: 10px 10px;
+    }
+}

@@ -1,0 +1,215 @@
+#menu-one{
+	position: relative;
+    top: 0;
+    background: url(images/hd.png);
+    width: 100%;
+    z-index: 3;padding: 15px 0;z-index: 99;
+    padding-bottom: 0;background-size: 100% 100%;
+}
+.all_menu{background: #ffd500;width: 100%;min-width: 1200px;}
+#count-cart-vn{color: #f00;
+    position: absolute;
+    left: 18px;
+    font-size: 14px;
+    margin: auto;
+    top: 2px;}
+.pvp{font-size: 16px;
+    color: #fff;
+    font-family: robotobold;
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 11px;}
+#menu-one .wrap-menu {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.cskh{font-family: utm_bienvenue;
+    color: #dc3e3e;
+    font-size: 28px;
+    float: right;
+    width: 265px;
+    background: url(images/hl.png)no-repeat center left;
+    height: 75px;
+    padding-top: 30px;
+    padding-left: 80px;}
+.cskh_in p{margin-top: 4px;
+    margin-bottom: 5px;}
+#menu-one .wrap-menu .logo{
+	width: 225px;
+    display: block;
+    float: left;
+}
+.dbn_r{float: right;
+    width: calc(100% - 225px);padding-left: 120px;padding-bottom: 10px;}
+#menu-one .search-bar{
+    width: 275px;
+    height: 36px;
+    margin-top: 7px;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    overflow: hidden;
+    font-family: 'roboto_r';
+    color: #333;
+    float: right;
+    background: #fff2b3;
+}
+.fixed-menu{position: fixed!important;box-shadow: 0 1px 3px 0 rgb(4, 5, 21);top: 0;
+    transition: all .3s ease;
+   transition: .5s;-webkit-animation: mations 1s ease;
+    animation: mations 1s ease;}
+ 
+.fixed-menu .pvp{display: none;}
+.fixed-menu .logo img{max-height: 80px;}
+.cskh_in{float: left;}
+.cskh_gh{width: 50px;
+    height: 50px;
+    display: block;
+    float: right;
+    background: url(images/gh.png);position: relative;}
+#menu-one .slc{border: none;
+    border-right: 1px solid #cecece;
+    height: 42px;
+    padding: 0 5px;}
+#menu-one .search-text{
+width: calc(100% - 30px);
+    height: 35px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 4px 5px;
+    color: #333;
+    padding-left: 10px;
+}
+#menu-one .search-btn{
+	position: absolute;
+    top: 0;
+    right: 0px;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    color: #333;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: 2px;
+}
+nav.mvhk{
+
+	display: flex;
+	justify-content: space-between;margin-top: 15px;
+    max-width: 1200px;margin: auto;
+
+}
+
+#menu-one .item-big {
+   position: relative;
+    width: 900px;
+}
+#menu-one .item-big .nav-item {
+    float: left;
+    position: relative;
+}
+#menu-one .item-big .nav-item  > a {
+    display: block;
+    text-align: left;
+    padding: 0px 27px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 50px;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-family: 'roboto_r';
+    cursor: pointer;
+    border-right: 1px solid #c0a519;
+}
+
+#menu-one .item-big .nav-item> a:hover{color: #837575;background: #e5c10b;}
+#menu-one .item-big .nav-item > ul li a:hover{color: #837575;}
+#menu-one .item-big .nav-item > .item_small {
+    overflow: hidden;
+    display: block;
+    max-height: 0px;
+    max-width: 0px;
+    opacity: 0;
+    -webkit-transform: perspective(600px) rotateX(-90deg);
+    -moz-transform: perspective(600px) rotateX(-90deg);
+    -ms-transform: perspective(600px) rotateX(-90deg);
+    -o-transform: perspective(600px) rotateX(-90deg);
+    transform: perspective(600px) rotateX(-90deg);
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+    -o-transition: -o-transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+    transition: transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    width: 270px;
+    padding: 0;
+    background-color: #fff;
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    z-index: 99;
+    transition: all .3s ease;
+}
+#menu-one .item-big .nav-item:hover>ul {
+    overflow: visible;
+    max-height: 3000px;
+    max-width: 3000px;
+    opacity: 1;
+    -webkit-transform: perspective(600px) rotateX(0deg);
+    -moz-transform: perspective(600px) rotateX(0deg);
+    -ms-transform: perspective(600px) rotateX(0deg);
+    -o-transform: perspective(600px) rotateX(0deg);
+    transform: perspective(600px) rotateX(0deg);
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+    -o-transition: -o-transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+    transition: transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+}
+#menu-one .item-big .nav-item > ul li {
+    padding: 0px 10px;position: relative;background: #ffd500;
+}
+#menu-one .item-big .nav-item > ul li a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: block;
+    padding: 7px 5px 7px 0px;
+    color: #333;
+    position: relative;
+    border-bottom: solid 1px #c0a519;
+    text-align: left;
+    text-transform: uppercase;  
+}
+.mv_l{width: 200px;float: left;}
+.mv_r{width: calc(100% - 200px );float: right;};
+
+@media screen and (max-width:767px) {
+    #menu-one .search-bar{height: 35px;
+    margin-top: -5px;}
+    #menu-one .slc {
+    font-size: 12px;
+    width: 70px;
+    height: 35px;}
+#menu-one .search-btn{height: 35px;
+    width: 35px;
+    font-size: 13px;}
+#menu-one .search-text{font-size: 12px;
+    height: 35px;
+    width: calc(100% - 110px);}
+.pvp{display: none;}
+#menu-one{padding: 5px 0;}
+.menu-mobile{margin-right: 5px;}
+}
